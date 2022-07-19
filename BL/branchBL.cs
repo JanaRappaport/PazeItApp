@@ -12,9 +12,10 @@ namespace BL
         private static List<supermarket> LoadSupermarket()
         {
             List<supermarket> listOfSupermarket = new List<supermarket>();
-            //string constr = "metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=C:\PITdataBase.mdf;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;App=EntityFramework&quot;";
-            //    string constr = System.Configuration.ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
-            //    SqlCommand command = new SqlCommand("select * from questions");
+
+            string constr = "metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\\MSSQLLocalDB;attachdbfilename=C:\\PITdataBase.mdf;integrated security=True;connect timeout=30;MultipleActiveResultSets=True;App=EntityFramework&quot;";
+            //  string constr = System.Configuration.ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
+              //SqlCommand command = new SqlCommand("select * from questions");
             //    SqlConnection connection = new SqlConnection(constr);
             //    command.Connection = connection;
 
