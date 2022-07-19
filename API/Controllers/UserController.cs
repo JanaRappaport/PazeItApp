@@ -33,7 +33,6 @@ namespace API.Controllers
         {
             BL.userBL.AddUser(user);
             return Ok(true);
-
         }
 
     }
