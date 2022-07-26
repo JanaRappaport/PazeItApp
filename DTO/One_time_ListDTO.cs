@@ -14,7 +14,7 @@ namespace DTO
         public bool status { get; set; }
         public int branchID { get; set; }
 
-        public virtual branchDTO Branch { get; set; }
-        public virtual userDTO user { get; set; }
+        //public virtual branchDTO Branch { get; set; }
+        //public virtual userDTO user { get; set; }
     }
 }
