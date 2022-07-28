@@ -19,5 +19,14 @@ namespace BL
                 DB.SaveChanges();
             }
         }
+
+        public static List<DAL.user> GetAllUsers()
+        {
+            List<DAL.user> listOfUsers = new List<DAL.user>();
+            using (PITdataBaseEntities DB = new PITdataBaseEntities())
+            {
+
+            }
+        }
     }
 }
